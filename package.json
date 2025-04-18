@@ -2,15 +2,15 @@
   "name": "backend-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "TEST=true jest",
     "db:push": "prisma db push --preview-feature",
     "tsc": "tsc",
-    "dev": "nodemon ./index.ts",
+    "dev": "nodemon ./index.js",
     "start": "node build/index.js",
     "start:dev": "nodemon index.js",
-    "datos": "node ./src/database/seed.ts",
+    "datos": "node ./src/database/seed.js",
     "migrate:deploy": "prisma migrate deploy"
   },
   "keywords": [],
